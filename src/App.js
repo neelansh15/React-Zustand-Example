@@ -35,10 +35,12 @@ function App() {
   return (
     <div className="App">
       <ShowBears />
+      <div class = "actions">
       <AddBear />
       <RemoveBear />
       <NukeBears />
-      <hr />
+      </div>
+      <br />
       <Bears />
     </div>
   );
