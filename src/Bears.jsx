@@ -8,13 +8,8 @@ export default function Bears(){
         arr.push(<span>🐻</span>)
     }
     return(
-        <div style={{
-            margin: '1em 0',
-            background: '#eeeeee',
-            padding: '1em',
-            width: 'auto'
-        }}>
-            { arr }
-        </div>
+     <div>
+         {arr}
+     </div>
     )
 }
